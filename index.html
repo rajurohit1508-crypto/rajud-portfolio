@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Raju D | Automation & Data Portfolio</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+/* ADDITIONAL CSS FOR COLLAPSIBLE CARDS */
+.card {
+  cursor: pointer;
+  position: relative;
+}
+
+.card .toggle-arrow {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  transition: transform 0.3s ease;
+  font-size: 14px;
+  color: #2563eb;
+}
+
+.card.expanded .toggle-arrow {
+  transform: rotate(90deg);
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- HERO -->
+<header class="hero">
+
+<h1>Raju D</h1>
+
+<p class="tagline">
+Automation • Data • Operations Systems
+</p>
+
+<div class="buttons">
+
+<a href="#projects" class="btn secondary">View Projects</a>
+
+<a href="assets/resume.pdf" class="btn secondary">Resume</a>
+
+<a href="#contact" class="btn secondary">Contact</a>
+
+</div>
+
+<!-- SOCIAL ICONS -->
+
+<div class="socials">
+
+<a href="https://github.com/" target="_blank" class="github">
+<i class="fab fa-github"></i>
+</a>
+
+<a href="https://www.linkedin.com/in/raju-d-1508d/" target="_blank" class="linkedin">
+<i class="fab fa-linkedin-in"></i>
+</a>
+
+<a href="https://www.youtube.com/@AutomateSolution" target="_blank" class="youtube">
+<i class="fab fa-youtube"></i>
+</a>
+
+<a href="mailto:rajurohit1508@gmail.com" class="gmail">
+<i class="fas fa-envelope"></i>
+</a>
+
+</div>
+
+</header>
+
+<!-- WHAT I DO -->
+
+<section class="section light">
+
+<h2>What I Do</h2>
+
+<p class="center-text">
+
+I build automation systems that eliminate repetitive operational work
+and improve reporting reliability. My work combines operations knowledge,
+data workflows, and automation using SQL, Python and Google Apps Script
+to design scalable business processes.
+
+</p>
+
+</section>
+
+<!-- PROJECTS -->
+
+<section id="projects" class="section">
+
+<h2>Selected Projects</h2>
+
+<div class="project-grid">
+
+<!-- PROJECT 1 -->
+<div class="card">
+  <i class="fas fa-chevron-right toggle-arrow"></i>
+  <h3>End-to-End Payment Automation System</h3>
+  <p class="date">Mar 2025 – Jul 2025</p>
+
+  <div class="card-section">
+    <p class="label">Problem</p>
+    <p>Manual downloading, unlocking PDFs, data entry and vendor emailing required 3–4 hours of daily operational work.</p>
+  </div>
+
+  <div class="card-section">
+    <p class="label">Solution</p>
+    <p>Built automated workflow connecting Gmail triggers, PDF capture, OCR extraction, Google Sheets processing and automated vendor email communication.</p>
+  </div>
+
+  <div class="card-section">
+    <p class="label">Outcome</p>
+    <p>Reduced processing time to ~5 minutes while supporting unlimited transaction volume with consistent execution.</p>
+  </div>
+
+  <div class="tags">
+    <span>Apps Script</span>
+    <span>Automation</span>
+    <span>OCR</span>
+    <span>Workflow Design</span>
+  </div>
+
+  <a href="https://github.com/" target="_blank" class="project-link">View Code →</a>
+</div>
+
+<!-- PROJECT 2 -->
+<div class="card">
+  <i class="fas fa-chevron-right toggle-arrow"></i>
+  <h3>Secure PDF Processing & Unlock Automation</h3>
+  <p class="date">Jan 2025 – Mar 2025</p>
+
+  <div class="card-section">
+    <p class="label">Problem</p>
+    <p>Payment confirmations arrived as password-protected PDFs that required manual unlocking before any processing could begin.</p>
+  </div>
+
+  <div class="card-section">
+    <p class="label">Solution</p>
+    <p>Developed Python automation to detect, unlock and prepare secured Drive PDFs automatically for downstream workflows.</p>
+  </div>
+
+  <div class="card-section">
+    <p class="label">Outcome</p>
+    <p>Removed manual security handling and enabled fully automated document processing pipelines.</p>
+  </div>
+
+  <div class="tags">
+    <span>Python</span>
+    <span>File Automation</span>
+    <span>Drive Integration</span>
+  </div>
+
+  <a href="https://github.com/" target="_blank" class="project-link">View Code →</a>
+</div>
+
+<!-- PROJECT 3 -->
+<div class="card">
+  <i class="fas fa-chevron-right toggle-arrow"></i>
+  <h3>Automated Audit-Ready Document Management</h3>
+  <p class="date">Feb 2025 – Jun 2025</p>
+
+  <div class="card-section">
+    <p class="label">Problem</p>
+    <p>Payment documents required structured storage for vendor tracking, monthly reconciliation and audit verification.</p>
+  </div>
+
+  <div class="card-section">
+    <p class="label">Solution</p>
+    <p>Implemented Drive automation that moves processed PDFs into vendor-wise and month-wise folders automatically after workflow completion.</p>
+  </div>
+
+  <div class="card-section">
+    <p class="label">Outcome</p>
+    <p>Created an organized, audit-ready document lifecycle with zero manual file management.</p>
+  </div>
+
+  <div class="tags">
+    <span>Google Drive API</span>
+    <span>Automation</span>
+    <span>Process Engineering</span>
+  </div>
+
+  <a href="https://github.com/" target="_blank" class="project-link">View Code →</a>
+</div>
+
+<!-- PROJECT 4 -->
+<div class="card">
+  <i class="fas fa-chevron-right toggle-arrow"></i>
+  <h3>Vendor Wallet Balance Monitoring System</h3>
+  <p class="date">Apr 2025 – Present</p>
+
+  <div class="card-section">
+    <p class="label">Problem</p>
+    <p>Operations teams had to manually monitor vendor wallet balances. Email alerts were often missed and Slack alerts were costly.</p>
+  </div>
+
+  <div class="card-section">
+    <p class="label">Solution</p>
+    <p>Built automated monitoring using Gmail triggers, Google Sheets and Google Calendar notifications to detect low wallet balances and generate persistent alerts every 5 minutes.</p>
+  </div>
+
+  <div class="card-section">
+    <p class="label">Outcome</p>
+    <p>Provided real-time visibility of vendor balances while avoiding paid alerting systems like Slack.</p>
+  </div>
+
+  <div class="tags">
+    <span>Google Apps Script</span>
+    <span>Automation</span>
+    <span>Monitoring</span>
+  </div>
+
+  <a href="https://github.com/" target="_blank" class="project-link">View Code →</a>
+</div>
+
+<!-- PROJECT 5 -->
+<div class="card">
+  <i class="fas fa-chevron-right toggle-arrow"></i>
+  <h3>Automated Gmail Cleanup & Categorization</h3>
+  <p class="date">Apr 2026 – Present</p>
+
+  <div class="card-section">
+    <p class="label">Problem</p>
+    <p>Manually deleting unwanted emails and sorting inbox wastes time and reduces productivity.</p>
+  </div>
+
+  <div class="card-section">
+    <p class="label">Solution</p>
+    <p>Built Google Apps Script automation that automatically deletes unwanted emails daily at 1 AM and categorizes remaining emails by sender for easier filtering. Inbox stays clean without manual effort.</p>
+  </div>
+
+  <div class="card-section">
+    <p class="label">Outcome</p>
+    <p>Inbox stays clean and manageable. Saves 30–45 minutes daily and highlights important emails.</p>
+  </div>
+
+  <div class="tags">
+    <span>Google Apps Script</span>
+    <span>Automation</span>
+    <span>Productivity</span>
+  </div>
+
+  <a href="https://github.com/" target="_blank" class="project-link">View Code →</a>
+</div>
+
+</div>
+
+</section>
+
+<!-- IMPACT -->
+
+<section class="section impact">
+
+<h2>Impact</h2>
+
+<div class="impact-grid">
+
+<div>⬤ Automated end-to-end payment workflow</div>
+
+<div>⬤ Reduced manual operational effort</div>
+
+<div>⬤ Improved reconciliation accuracy</div>
+
+<div>⬤ Built audit-ready document systems</div>
+
+</div>
+
+</section>
+
+<!-- SKILLS -->
+
+<section class="section light compact">
+
+<h2>Core Skills</h2>
+
+<div class="skills">
+
+<span>SQL</span>
+<span>Python</span>
+<span>Automation</span>
+<span>Data Analysis</span>
+<span>MIS Reporting</span>
+
+</div>
+
+<p class="skill-note">
+
+Tools: Google Apps Script • Excel • Gmail API • HTML/CSS
+
+</p>
+
+</section>
+
+<!-- EXPERIENCE -->
+
+<section class="section compact">
+
+<h2>Experience</h2>
+
+<div class="experience">
+
+<div class="exp-item">
+
+<img src="assets/Kredit.jpg" class="company-logo">
+
+<h3>Kredit.Pe</h3>
+
+<p>Operations Specialist</p>
+
+</div>
+
+<div class="exp-item">
+
+<img src="assets/Wakefit.png" class="company-logo">
+
+<h3>Wakefit</h3>
+
+<p>Operations</p>
+
+</div>
+
+<div class="exp-item">
+
+<img src="assets/Ninjacart2.jpg" class="company-logo">
+
+<h3>Ninjacart</h3>
+
+<p>Operations</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact" class="section">
+
+<h2>Contact</h2>
+
+<p>Email: rajurohit1508@gmail.com</p>
+
+<p>Open to Automation & Data Analyst opportunities.</p>
+
+</section>
+
+<footer>
+
+<p>© 2026 Raju D</p>
+
+</footer>
+
+<script>
+  // COLLAPSIBLE CARD FUNCTIONALITY
+  const cards = document.querySelectorAll('.project-grid .card');
+
+  cards.forEach(card => {
+    const sections = card.querySelectorAll('.card-section, .tags, .project-link');
+    sections.forEach(sec => sec.style.display = 'none');
+
+    card.addEventListener('click', (e) => {
+      if(e.target.tagName.toLowerCase() === 'a') return;
+
+      card.classList.toggle('expanded');
+      sections.forEach(sec => {
+        if(sec.style.display === 'none') {
+          sec.style.display = 'block';
+        } else {
+          sec.style.display = 'none';
+        }
+      });
+
+      card.scrollIntoView({behavior: "smooth", block: "center"});
+    });
+  });
+</script>
+
+</body>
+  
+</html>
